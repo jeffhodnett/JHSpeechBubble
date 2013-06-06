@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6BBC981761086F0058BC84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6BBC971761086F0058BC84 /* UIKit.framework */; };
+		1F6BBC9A1761086F0058BC84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6BBC991761086F0058BC84 /* Foundation.framework */; };
+		1F6BBC9C1761086F0058BC84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6BBC9B1761086F0058BC84 /* CoreGraphics.framework */; };
+		1F6BBCA21761086F0058BC84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F6BBCA01761086F0058BC84 /* InfoPlist.strings */; };
+		1F6BBCA41761086F0058BC84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BBCA31761086F0058BC84 /* main.m */; };
+		1F6BBCA81761086F0058BC84 /* JHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BBCA71761086F0058BC84 /* JHAppDelegate.m */; };
+		1F6BBCAA1761086F0058BC84 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6BBCA91761086F0058BC84 /* Default.png */; };
+		1F6BBCAC1761086F0058BC84 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6BBCAB1761086F0058BC84 /* Default@2x.png */; };
+		1F6BBCAE1761086F0058BC84 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6BBCAD1761086F0058BC84 /* Default-568h@2x.png */; };
+		1F6BBCB11761086F0058BC84 /* JHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BBCB01761086F0058BC84 /* JHViewController.m */; };
+		1F6BBCB41761086F0058BC84 /* JHViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F6BBCB21761086F0058BC84 /* JHViewController_iPhone.xib */; };
+		1F6BBCB71761086F0058BC84 /* JHViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F6BBCB51761086F0058BC84 /* JHViewController_iPad.xib */; };
+		1F6BBCC817610A270058BC84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6BBCC717610A270058BC84 /* QuartzCore.framework */; };
+		1F6BBCD017610AB40058BC84 /* JHSpeechBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6BBCCF17610AB40058BC84 /* JHSpeechBubbleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F6BBC941761086F0058BC84 /* SpeechBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6BBC971761086F0058BC84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F6BBC991761086F0058BC84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F6BBC9B1761086F0058BC84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F6BBC9F1761086F0058BC84 /* SpeechBubble-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpeechBubble-Info.plist"; sourceTree = "<group>"; };
+		1F6BBCA11761086F0058BC84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F6BBCA31761086F0058BC84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F6BBCA51761086F0058BC84 /* SpeechBubble-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpeechBubble-Prefix.pch"; sourceTree = "<group>"; };
+		1F6BBCA61761086F0058BC84 /* JHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHAppDelegate.h; sourceTree = "<group>"; };
+		1F6BBCA71761086F0058BC84 /* JHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHAppDelegate.m; sourceTree = "<group>"; };
+		1F6BBCA91761086F0058BC84 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1F6BBCAB1761086F0058BC84 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1F6BBCAD1761086F0058BC84 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1F6BBCAF1761086F0058BC84 /* JHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHViewController.h; sourceTree = "<group>"; };
+		1F6BBCB01761086F0058BC84 /* JHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHViewController.m; sourceTree = "<group>"; };
+		1F6BBCB31761086F0058BC84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JHViewController_iPhone.xib; sourceTree = "<group>"; };
+		1F6BBCB61761086F0058BC84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JHViewController_iPad.xib; sourceTree = "<group>"; };
+		1F6BBCC717610A270058BC84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1F6BBCCE17610AB40058BC84 /* JHSpeechBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSpeechBubbleView.h; sourceTree = "<group>"; };
+		1F6BBCCF17610AB40058BC84 /* JHSpeechBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSpeechBubbleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F6BBC911761086F0058BC84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6BBCC817610A270058BC84 /* QuartzCore.framework in Frameworks */,
+				1F6BBC981761086F0058BC84 /* UIKit.framework in Frameworks */,
+				1F6BBC9A1761086F0058BC84 /* Foundation.framework in Frameworks */,
+				1F6BBC9C1761086F0058BC84 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6BBC8B1761086F0058BC84 = {
+			isa = PBXGroup;
+			children = (
+				1F6BBC9D1761086F0058BC84 /* SpeechBubble */,
+				1F6BBC961761086F0058BC84 /* Frameworks */,
+				1F6BBC951761086F0058BC84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F6BBC951761086F0058BC84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F6BBC941761086F0058BC84 /* SpeechBubble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F6BBC961761086F0058BC84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F6BBCC717610A270058BC84 /* QuartzCore.framework */,
+				1F6BBC971761086F0058BC84 /* UIKit.framework */,
+				1F6BBC991761086F0058BC84 /* Foundation.framework */,
+				1F6BBC9B1761086F0058BC84 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F6BBC9D1761086F0058BC84 /* SpeechBubble */ = {
+			isa = PBXGroup;
+			children = (
+				1F6BBCA61761086F0058BC84 /* JHAppDelegate.h */,
+				1F6BBCA71761086F0058BC84 /* JHAppDelegate.m */,
+				1F6BBCAF1761086F0058BC84 /* JHViewController.h */,
+				1F6BBCB01761086F0058BC84 /* JHViewController.m */,
+				1F6BBCB21761086F0058BC84 /* JHViewController_iPhone.xib */,
+				1F6BBCB51761086F0058BC84 /* JHViewController_iPad.xib */,
+				1F6BBCCD17610AB40058BC84 /* lib */,
+				1F6BBC9E1761086F0058BC84 /* Supporting Files */,
+			);
+			path = SpeechBubble;
+			sourceTree = "<group>";
+		};
+		1F6BBC9E1761086F0058BC84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6BBC9F1761086F0058BC84 /* SpeechBubble-Info.plist */,
+				1F6BBCA01761086F0058BC84 /* InfoPlist.strings */,
+				1F6BBCA31761086F0058BC84 /* main.m */,
+				1F6BBCA51761086F0058BC84 /* SpeechBubble-Prefix.pch */,
+				1F6BBCA91761086F0058BC84 /* Default.png */,
+				1F6BBCAB1761086F0058BC84 /* Default@2x.png */,
+				1F6BBCAD1761086F0058BC84 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F6BBCCD17610AB40058BC84 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1F6BBCCE17610AB40058BC84 /* JHSpeechBubbleView.h */,
+				1F6BBCCF17610AB40058BC84 /* JHSpeechBubbleView.m */,
+			);
+			name = lib;
+			path = ../../lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F6BBC931761086F0058BC84 /* SpeechBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6BBCBA1761086F0058BC84 /* Build configuration list for PBXNativeTarget "SpeechBubble" */;
+			buildPhases = (
+				1F6BBC901761086F0058BC84 /* Sources */,
+				1F6BBC911761086F0058BC84 /* Frameworks */,
+				1F6BBC921761086F0058BC84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeechBubble;
+			productName = SpeechBubble;
+			productReference = 1F6BBC941761086F0058BC84 /* SpeechBubble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F6BBC8C1761086F0058BC84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jeff Hodnett";
+			};
+			buildConfigurationList = 1F6BBC8F1761086F0058BC84 /* Build configuration list for PBXProject "SpeechBubble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F6BBC8B1761086F0058BC84;
+			productRefGroup = 1F6BBC951761086F0058BC84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F6BBC931761086F0058BC84 /* SpeechBubble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F6BBC921761086F0058BC84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6BBCA21761086F0058BC84 /* InfoPlist.strings in Resources */,
+				1F6BBCAA1761086F0058BC84 /* Default.png in Resources */,
+				1F6BBCAC1761086F0058BC84 /* Default@2x.png in Resources */,
+				1F6BBCAE1761086F0058BC84 /* Default-568h@2x.png in Resources */,
+				1F6BBCB41761086F0058BC84 /* JHViewController_iPhone.xib in Resources */,
+				1F6BBCB71761086F0058BC84 /* JHViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F6BBC901761086F0058BC84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6BBCA41761086F0058BC84 /* main.m in Sources */,
+				1F6BBCA81761086F0058BC84 /* JHAppDelegate.m in Sources */,
+				1F6BBCB11761086F0058BC84 /* JHViewController.m in Sources */,
+				1F6BBCD017610AB40058BC84 /* JHSpeechBubbleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F6BBCA01761086F0058BC84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6BBCA11761086F0058BC84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F6BBCB21761086F0058BC84 /* JHViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6BBCB31761086F0058BC84 /* en */,
+			);
+			name = JHViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		1F6BBCB51761086F0058BC84 /* JHViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6BBCB61761086F0058BC84 /* en */,
+			);
+			name = JHViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F6BBCB81761086F0058BC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F6BBCB91761086F0058BC84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F6BBCBB1761086F0058BC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeechBubble/SpeechBubble-Prefix.pch";
+				INFOPLIST_FILE = "SpeechBubble/SpeechBubble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F6BBCBC1761086F0058BC84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpeechBubble/SpeechBubble-Prefix.pch";
+				INFOPLIST_FILE = "SpeechBubble/SpeechBubble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F6BBC8F1761086F0058BC84 /* Build configuration list for PBXProject "SpeechBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6BBCB81761086F0058BC84 /* Debug */,
+				1F6BBCB91761086F0058BC84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6BBCBA1761086F0058BC84 /* Build configuration list for PBXNativeTarget "SpeechBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6BBCBB1761086F0058BC84 /* Debug */,
+				1F6BBCBC1761086F0058BC84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F6BBC8C1761086F0058BC84 /* Project object */;
+}
