@@ -1,4 +1,4 @@
-Cocoa SpeechBubble
+Cocoa Speech Bubble
 ============
 
 A simple Core Graphics speech bubble. 
