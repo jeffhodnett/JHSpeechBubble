@@ -13,7 +13,7 @@ Is the main view that does the work. It's got lots of options, so check it out.
 
 Mac
 ------------
-![Screenshot](https://github.com/jeffhodnett/SpeechBubble/raw/master/Mac/screenshot.tiff)
+![Screenshot](https://github.com/jeffhodnett/SpeechBubble/raw/master/Mac/animated.gif)
 
 iOS
 ------------
