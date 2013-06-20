@@ -48,6 +48,7 @@
 {
     _bubbleType = JHSpeechBubbleTypeNormal;
     _pointerPosition = JHSpeechBubblePointerPositionBottomLeft;
+//    _pointerPosition = JHSpeechBubblePointerPositionTopLeft;
     
     self.showsDropShadow = YES;
     self.lineWidth = 2.0f;
@@ -206,6 +207,10 @@
     float bubbleWidth = (self.bounds.size.width * 1.0f)-(xPadding*2.0f);
     float bubbleHeight = (self.bounds.size.height * 0.80f);
     CGRect bubbleRect = CGRectMake(xPadding, (self.bounds.size.height-bubbleHeight)-yPadding, bubbleWidth, bubbleHeight);
+
+    if(_pointerPosition == JHSpeechBubblePointerPositionTopLeft) {
+        bubbleRect = CGRectMake(xPadding, yPadding, bubbleWidth, bubbleHeight);
+    }
     
 #if TARGET_OS_IPHONE
     
@@ -257,6 +262,12 @@
             p2 = [self pointOnEllipseRect:bubbleRect withAngle:335.0f];
             p3 = CGPointMake(p1.x, p2.y);
             endPoint = CGPointMake(bubbleRect.origin.x+bubbleRect.size.width, bubbleRect.origin.y);
+            break;
+        case JHSpeechBubblePointerPositionTopLeft:
+            p1 = [self pointOnEllipseRect:bubbleRect withAngle:30.0f];
+            p2 = [self pointOnEllipseRect:bubbleRect withAngle:55.0f];
+            p3 = CGPointMake(p2.x, p1.y);
+            endPoint = CGPointMake(bubbleRect.origin.x+bubbleRect.size.width, bubbleRect.origin.y+bubbleRect.size.height);
             break;
         default:
             break;

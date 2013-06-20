@@ -54,8 +54,6 @@
     [self.bubbleTextField setStringValue:defaultText];
     [self.bubbleTextColorWell setColor:textColor];
     [self.speechBubbleView setTextColor:textColor];
-    
-//    [self.speechBubbleView animate];
 }
 
 #pragma mark - Actions

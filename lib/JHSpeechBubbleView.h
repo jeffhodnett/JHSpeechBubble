@@ -21,7 +21,8 @@ typedef enum {
 typedef enum {
     JHSpeechBubblePointerPositionBottomLeft = 0,
     JHSpeechBubblePointerPositionBottomCenter = 1,
-    JHSpeechBubblePointerPositionBottomRight = 2
+    JHSpeechBubblePointerPositionBottomRight = 2,
+    JHSpeechBubblePointerPositionTopLeft = 3,
 } JHSpeechBubblePointerPosition;
 
 @class JHSpeechBubbleModel;
